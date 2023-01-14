@@ -1,10 +1,8 @@
-import { defineComponent } from 'vue';
+import {defineComponent} from 'vue';
 
 const Home = defineComponent({
-  setup () {
-    return () => (
-      <div>Home</div>
-    );
-  }
+	setup() {
+		return () => 'Home'
+	}
 });
 export default Home;
